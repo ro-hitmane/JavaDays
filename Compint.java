@@ -24,7 +24,7 @@ public class Compint {
 
         amount = principle * Math.pow(1 + rate / timeCompounded, timeCompounded * years);
 
-        System.out.printf("The compound interest is: %.2f", amount - principle);
+        System.out.printf("The compound interest after %d is %.2f", years, amount);
 
         sc.close();
     }
