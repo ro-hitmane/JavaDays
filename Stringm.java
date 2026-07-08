@@ -25,12 +25,19 @@ public class Stringm {
         else {
             System.out.println("Your name is: " + name);
         }
-*/
+
 if(name.contains(" ")) {
     System.out.println("Your name contais space");
 }
 else{
     System.out.println("Your name doesn't contain any spaces");
-}
+}*/
+ if(name.equals("Rohit ")) {
+    System.out.println("Your name is correct");
+ }
+ else{
+    System.out.println("Your name is incorrect");
+ }
+
     }
 }
