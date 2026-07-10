@@ -25,12 +25,15 @@ public class Ternary {
          */
  /* int hour = 13;
 
-        String timeOfDay = (hour < 12) ? "A.M." : "P.M.";
+        String timeOfDay = (hour < 12) ? "A.M." : "P.M."
         System.out.println(timeOfDay);
          */
-        double income = 1200000;
+ /*double income = 1200000;
         double taxRate = (income <= 60000) ? 00 : 8;
-        System.out.println(taxRate);
+        System.out.println(taxRate);*/
+        int number = 3;
+        String positiveOrNegative = (number < 0) ? "Negative" : "Positive";
+        System.out.print(positiveOrNegative);
 
         sc.close();
 
